@@ -36,7 +36,7 @@ export default function App({}: Props) {
         snapTo: "labels",
         duration: { min: 0.2, max: 0.6 },
         ease: "power1.inOut",
-        // delay: 0.1, // optional: wait a beat after scroll stops before snapping
+        // delay: 0.1, // optional
       }
     },
     defaults: { ease: 'power2.inOut' } 
