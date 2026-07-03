@@ -31,7 +31,7 @@ export default function App({}: Props) {
       start: "top -2px", 
       end: "+=2000", 
       scrub: 1, 
-      markers: true,
+      // markers: true,
       snap: {
         snapTo: "labels",
         duration: { min: 0.2, max: 0.6 },
