@@ -1,0 +1,179 @@
+.phonediv{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(8);
+}
+.phoneimage{
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translateY(5%);
+}
+.bigimage{
+  width: 19%;
+  height: 71vh;
+  transform-origin: bottom;
+  transform: translateY(6%);
+  background-color: red;
+  border-radius: 20px;
+  position: absolute;
+  overflow: hidden;
+}
+.bigimage img{
+  width: 100%;
+  height: 100%;
+
+}
+.cards{
+  width: 19%;
+  height:40vh;
+  transform: scale(1) translateY(-10%);
+  border-radius:20px ;
+  overflow: hidden;
+  opacity: 1;
+  position: absolute;
+ 
+}
+.cardContainer{
+  width:20vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin-top: 65vh;
+  position:relative;
+  transform:rotateZ(4deg)
+  /* transform:scale(3); */
+  /* transform-origin:'50% 50%'; */
+  
+}
+.cards img{
+  height: 30vh;
+  width: 14vw;
+  object-fit: cover;
+  border-radius: 20px;
+  
+
+}
+.cards img:nth-child(1){
+  opacity:0;
+}
+.cards img:nth-child(2){
+  opacity:0;
+}
+.cards img:nth-child(3){
+  opacity:0;
+}
+.cards img:nth-child(4){
+  opacity:0;
+}
+.cards img:nth-child(5){
+  opacity:0;
+}
+.cards img:nth-child(6){
+  opacity:0;
+}
+.cards img:nth-child(7){
+  opacity:0;
+}
+.cards img:nth-child(9){
+  opacity:0;
+  
+}
+.textContainer{
+  width:25vw;
+  height: 17vh;
+  position:absolute;
+  top: 20%;
+  left: 20%;
+  transform: translateX(-50%);
+}
+.textContainer .innerTextContainer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  
+  justify-content: center;
+  position:relative
+}
+.text{
+  position: absolute;
+  
+}
+.text h1{
+  line-height:1.3;
+}
+.innerTextContainer #text1{
+  opacity:0;
+  height:100%;
+  overflow:hidden;
+  filter: blur(3px);
+}
+.innerTextContainer #text2{
+  opacity:0;
+  height:100%;
+  overflow:hidden;
+  filter: blur(3px);
+}
+.innerTextContainer #text3{
+  opacity:0;
+  
+  overflow:hidden;
+  filter: blur(3px);
+}
+.innerTextContainer #text4{
+  opacity:0;
+  
+  overflow:hidden;
+  filter: blur(3px);
+}
+.innerTextContainer #text5{
+  opacity:0;
+  
+  overflow:hidden;
+  filter: blur(3px);
+}
+.innerTextContainer #text6{
+  opacity:0;
+  
+  overflow:hidden;
+  filter: blur(3px);
+}
+.innerTextContainer #text7{
+  opacity:0;
+  
+  overflow:hidden;
+  filter: blur(3px);
+}
+.innerTextContainer #text8{
+  opacity:0;
+  
+  overflow:hidden;
+  filter: blur(3px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
